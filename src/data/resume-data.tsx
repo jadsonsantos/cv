@@ -25,10 +25,10 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, RJ, Brazil",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Front End Developer focused on building products with extra attention to detail",
+    "Front-End Developer passionate about crafting exceptional, fast, and responsive web experiences",
   summary:
-    "As a Front End Developer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+    "With 4 years of experience as a Front-End Developer, my expertise in ReactJS and NextJS enables me to create responsive and optimized web pages for multiple devices. I stand out by significantly enhancing performance through refactoring strategies and implementing script automations via Google Tag Manager. I am committed to code reviews, ensuring excellence and adherence to best practices.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
     email: "jadsondossantos5@gmail.com",
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "Implemented new features, worked on improving the apps performance, developed and maintained the front-end of web applications. Technologies: React, JavaScript, GatsbyJS",
     },
     {
       company: "Commerce Growth",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+        "Developed and maintained high-performance e-commerce sites. Documented and implemented tracking tags (Google Analytics, Google Ads, Facebook Pixel) via GTM. Technologies: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
     },
     {
       company: "Nasajon",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2018",
       description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
+        "Collaborated with WordPress, implementing custom features and themes",
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -124,7 +124,8 @@ export const RESUME_DATA = {
         "Sass Modules",
         "EmailJS",
       ],
-      description: "A platform to build and grow your online business",
+      description:
+        "Thalita Torres's portfolio, showcasing her skills in design, usability, and user experience",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
@@ -135,7 +136,7 @@ export const RESUME_DATA = {
       title: "Shopping Cart",
       techStack: ["Side Project", "JavaScript", "Reactjs", "API"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Lists, searches, and manages products from the Mercado Livre API, featuring functionalities to add and remove items",
       logo: MonitoLogo,
       link: {
         label: "shopping-cart-nine-mu.vercel.app",
@@ -143,10 +144,10 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Jarocki.me",
+      title: "Primeflix",
       techStack: ["Side Project", "Sass", "JavaScript", "Reactjs", "API"],
       description:
-        "My personal website and blog. Built with Next.js and Notion API",
+        "Project that lists movies from The Movie DB API, allowing users to add and remove favorites",
       logo: JarockiMeLogo,
       link: {
         label: "primeflix-psi.vercel.app",
