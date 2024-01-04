@@ -63,7 +63,7 @@ export const RESUME_DATA = {
     {
       company: "Red Ventures Brasil",
       link: "https://redventures.com.br/",
-      badges: ["Remote"],
+      badges: ["Remoto"],
       title: "Web Programmer",
       logo: ParabolLogo,
       start: "2021",
