@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Jadson Santos",
   initials: "JS",
-  location: "Rio de Janeiro, RJ, Brazil",
+  location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Front-End Developer passionate about crafting exceptional, fast, and responsive web experiences",
+    "Desenvolvedor Front-End apaixonado por criar experiências web excepcionais, rápidas e responsivas",
   summary:
-    "With 4 years of experience as a Front-End Developer, my expertise in ReactJS and NextJS enables me to create responsive and optimized web pages for multiple devices. I stand out by significantly enhancing performance through refactoring strategies and implementing script automations via Google Tag Manager. I am committed to code reviews, ensuring excellence and adherence to best practices.",
+    "Como Desenvolvedor Front-End, estou me especializando em ReactJS e NextJS para criar páginas web responsivas e otimizadas para diferentes dispositivos. Estou empenhado em aprender estratégias de refatoração para melhorar o desempenho e tenho começado a explorar automações de scripts com Google Tag Manager. Estou comprometido com revisões de código, buscando melhorar e seguir as melhores práticas.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -53,8 +53,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "State University of Rio de Janeiro",
-      degree: "Bachelor's Degree in Computer Science",
+      school: "Universidade do Estado Rio de Janeiro",
+      degree: "Bacharel em Ciência da Computação",
       start: "2011",
       end: "2019",
     },
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2023",
       description:
-        "Implemented new features, worked on improving the apps performance, developed and maintained the front-end of web applications. Technologies: React, JavaScript, GatsbyJS",
+        "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: React, JavaScript, GatsbyJS, Cypress, New Relic",
     },
     {
       company: "Commerce Growth",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "2019",
       end: "2021",
       description:
-        "Developed and maintained high-performance e-commerce sites. Documented and implemented tracking tags (Google Analytics, Google Ads, Facebook Pixel) via GTM. Technologies: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
+        "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
     },
     {
       company: "Nasajon",
@@ -91,7 +91,7 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2018",
       description:
-        "Collaborated with WordPress, implementing custom features and themes",
+        "Implementei features e temas personalizados em Wordpress. Tecnologias: HTML5, CSS3, jQuery, Wordpress",
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -125,7 +125,7 @@ export const RESUME_DATA = {
         "EmailJS",
       ],
       description:
-        "Thalita Torres's portfolio, showcasing her skills in design, usability, and user experience",
+        "Portfólio da Thalita Torres, mostrando suas habilidades em design, usabilidade e experiência do usuário",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
@@ -136,7 +136,7 @@ export const RESUME_DATA = {
       title: "Shopping Cart",
       techStack: ["Side Project", "JavaScript", "Reactjs", "API"],
       description:
-        "Lists, searches, and manages products from the Mercado Livre API, featuring functionalities to add and remove items",
+        "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens",
       logo: MonitoLogo,
       link: {
         label: "shopping-cart-nine-mu.vercel.app",
@@ -147,7 +147,7 @@ export const RESUME_DATA = {
       title: "Primeflix",
       techStack: ["Side Project", "Sass", "JavaScript", "Reactjs", "API"],
       description:
-        "Project that lists movies from The Movie DB API, allowing users to add and remove favorites",
+        "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos",
       logo: JarockiMeLogo,
       link: {
         label: "primeflix-psi.vercel.app",
