@@ -111,6 +111,7 @@ export const RESUME_DATA = {
     "HTML5",
     "CSS3",
     "Sass",
+    "Styled Components",
     "VTEX CMS",
   ],
   projects: [
