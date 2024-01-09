@@ -116,13 +116,24 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
+      title: "Jadson Santos",
+      techStack: ["Side Project", "Next.js", "TypeScript"],
+      description:
+        "Meu portfólio contendo meus projetos e principais conhecimentos técnicos",
+      logo: Minimal,
+      link: {
+        label: "jadsonsantos.dev.br",
+        href: "https://jadsonsantos.dev.br/",
+      },
+    },
+    {
       title: "Thalita Torres",
       techStack: [
         "Side Project",
         "JavaScript",
         "Next.js",
         "CSS3",
-        "Sass Modules",
+        "SCSS Modules",
         "EmailJS",
       ],
       description:
@@ -155,17 +166,6 @@ export const RESUME_DATA = {
         href: "https://primeflix-psi.vercel.app/",
       },
     },
-    // {
-    //   title: "Minimal",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Minimalist calendars, habit trackers and planners generator",
-    //   logo: Minimal,
-    //   link: {
-    //     label: "useminimal.com",
-    //     href: "https://useminimal.com/",
-    //   },
-    // },
     // {
     //   title: "Barepapers",
     //   techStack: ["Side Project", "Next.js", "Puppeteer"],
