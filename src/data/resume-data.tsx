@@ -66,8 +66,8 @@ export const RESUME_DATA = {
       badges: ["Remoto"],
       title: "Web Programmer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2023",
+      start: "10/2021",
+      end: "07/2023",
       description:
         "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: React, JavaScript, GatsbyJS, Cypress, New Relic",
     },
@@ -77,8 +77,8 @@ export const RESUME_DATA = {
       badges: ["Rio de Janeiro"],
       title: "Front-End Development Trainee → Jr Front-End Developer",
       logo: ClevertechLogo,
-      start: "2019",
-      end: "2021",
+      start: "05/2019",
+      end: "10/2021",
       description:
         "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
     },
@@ -88,8 +88,8 @@ export const RESUME_DATA = {
       badges: ["Rio de Janeiro"],
       title: "Front-End Development Intern",
       logo: JojoMobileLogo,
-      start: "2017",
-      end: "2018",
+      start: "07/2017",
+      end: "10/2018",
       description:
         "Implementei features e temas personalizados em Wordpress. Tecnologias: HTML5, CSS3, jQuery, Wordpress",
     },
@@ -113,6 +113,7 @@ export const RESUME_DATA = {
     "Sass",
     "Styled Components",
     "VTEX CMS",
+    "Firebase",
   ],
   projects: [
     {
