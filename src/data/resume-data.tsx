@@ -146,14 +146,25 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Club Ecommerce",
+      techStack: ["Side Project", "Next.js", "Styled Components", "Firebase"],
+      description:
+        "Projeto de ecommerce que oferece uma plataforma intuitiva e fácil de usar para listar e adicionar produtos ao carrinho.",
+      logo: BarepapersLogo,
+      link: {
+        label: "clubecommerce.jadsonsantos.dev.br",
+        href: "https://clubecommerce.jadsonsantos.dev.br/",
+      },
+    },
+    {
       title: "Shopping Cart",
       techStack: ["Side Project", "JavaScript", "Reactjs", "API"],
       description:
         "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens",
       logo: MonitoLogo,
       link: {
-        label: "shopping-cart-nine-mu.vercel.app",
-        href: "https://shopping-cart-nine-mu.vercel.app/",
+        label: "mercadolivre.jadsonsantos.dev.br",
+        href: "https://mercadolivre.jadsonsantos.dev.br/",
       },
     },
     {
@@ -167,17 +178,6 @@ export const RESUME_DATA = {
         href: "https://primeflix-psi.vercel.app/",
       },
     },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
     // {
     //   title: "Year progress",
     //   techStack: ["Side Project", "TypeScript", "Next.js"],
