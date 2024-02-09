@@ -108,11 +108,13 @@ export const RESUME_DATA = {
     "JavaScript",
     "TypeScript",
     "React/Next.js",
+    "Redux",
     "HTML5",
     "CSS3",
     "Sass",
     "Styled Components",
     "VTEX CMS",
+    "Firebase",
   ],
   projects: [
     {
@@ -155,28 +157,34 @@ export const RESUME_DATA = {
         href: "https://primeflix-psi.vercel.app/",
       },
     },
-    // {
-    //   title: "Minimal",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Minimalist calendars, habit trackers and planners generator",
-    //   logo: Minimal,
-    //   link: {
-    //     label: "useminimal.com",
-    //     href: "https://useminimal.com/",
-    //   },
-    // },
-    // {
-    //   title: "Barepapers",
-    //   techStack: ["Side Project", "Next.js", "Puppeteer"],
-    //   description:
-    //     "Generates beautiful wallpapers using random shapes and gradients",
-    //   logo: BarepapersLogo,
-    //   link: {
-    //     label: "barepapers.com",
-    //     href: "https://barepapers.com/",
-    //   },
-    // },
+    {
+      title: "Jadson Santos",
+      techStack: ["Side Project", "Next.js", "TypeScript", "Sass Modules"],
+      description:
+        "My portfolio containing my projects and main technical skills",
+      logo: Minimal,
+      link: {
+        label: "jadsonsantos.dev.br",
+        href: "https://jadsonsantos.dev.br/",
+      },
+    },
+    {
+      title: "Club Ecommerce",
+      techStack: [
+        "Side Project",
+        "Reactjs",
+        "Redux",
+        "Styled Components",
+        "Firebase",
+      ],
+      description:
+        "E-commerce project that offers an intuitive and easy-to-use platform for listing and adding products to the shopping cart.",
+      logo: BarepapersLogo,
+      link: {
+        label: "clubecommerce.jadsonsantos.dev.br",
+        href: "https://clubecommerce.jadsonsantos.dev.br/",
+      },
+    },
     // {
     //   title: "Year progress",
     //   techStack: ["Side Project", "TypeScript", "Next.js"],
