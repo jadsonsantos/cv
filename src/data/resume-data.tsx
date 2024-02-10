@@ -147,7 +147,13 @@ export const RESUME_DATA = {
     },
     {
       title: "Club Ecommerce",
-      techStack: ["Side Project", "Next.js", "Styled Components", "Firebase"],
+      techStack: [
+        "Side Project",
+        "React.js",
+        "Redux",
+        "Styled Components",
+        "Firebase",
+      ],
       description:
         "Projeto de ecommerce que oferece uma plataforma intuitiva e fácil de usar para listar e adicionar produtos ao carrinho.",
       logo: BarepapersLogo,
