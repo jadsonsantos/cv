@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Desenvolvedor Front-End apaixonado por criar experiências web excepcionais, rápidas e responsivas",
   summary:
-    "Como Desenvolvedor Front-End, estou me especializando em ReactJS e NextJS para criar páginas web responsivas e otimizadas para diferentes dispositivos. Estou empenhado em aprender estratégias de refatoração para melhorar o desempenho e tenho começado a explorar automações de scripts com Google Tag Manager. Estou comprometido com revisões de código, buscando melhorar e seguir as melhores práticas.",
+    "Como Desenvolvedor Front-End, estou me especializando em React e Next.js para criar páginas web responsivas e otimizadas para diferentes dispositivos. Estou empenhado em aprender estratégias de refatoração para melhorar o desempenho e tenho começado a explorar automações de scripts com Google Tag Manager. Estou comprometido com revisões de código, buscando melhorar e seguir as melhores práticas.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -69,7 +69,7 @@ export const RESUME_DATA = {
       start: "10/2021",
       end: "07/2023",
       description:
-        "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: React, JavaScript, GatsbyJS, Cypress, New Relic",
+        "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: HTML5, Sass, JavaScript, React, GatsbyJs, Cypress, New Relic",
     },
     {
       company: "Commerce Growth",
@@ -80,7 +80,7 @@ export const RESUME_DATA = {
       start: "05/2019",
       end: "10/2021",
       description:
-        "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
+        "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS",
     },
     {
       company: "Nasajon",
@@ -111,8 +111,8 @@ export const RESUME_DATA = {
     "Styled Components",
     "JavaScript",
     "TypeScript",
-    "Reactjs",
-    "Nextjs",
+    "React",
+    "Next.js",
     "Redux",
     "VTEX CMS",
     "Firebase",
@@ -135,7 +135,7 @@ export const RESUME_DATA = {
         "Side Project",
         "JavaScript",
         "Next.js",
-        "CSS3",
+        "Sass",
         "SCSS Modules",
         "EmailJS",
       ],
@@ -166,7 +166,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Shopping Cart",
-      techStack: ["Side Project", "JavaScript", "Reactjs", "API"],
+      techStack: ["Side Project", "JavaScript", "React", "API"],
       description:
         "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens",
       logo: MonitoLogo,
@@ -177,7 +177,7 @@ export const RESUME_DATA = {
     },
     {
       title: "Primeflix",
-      techStack: ["Side Project", "Sass", "JavaScript", "Reactjs", "API"],
+      techStack: ["Side Project", "Sass", "TypeScript", "React", "API"],
       description:
         "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos",
       logo: JarockiMeLogo,
