@@ -152,6 +152,7 @@ export const RESUME_DATA = {
       techStack: [
         "Side Project",
         "React.js",
+        "TypeScript"
         "Redux",
         "Styled Components",
         "Firebase",
