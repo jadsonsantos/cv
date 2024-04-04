@@ -22,12 +22,12 @@ import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 export const RESUME_DATA = {
   name: "Jadson Santos",
   initials: "JS",
-  location: "Rio de Janeiro, RJ, Brazil",
+  location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Front-End Developer passionate about crafting exceptional, fast, and responsive web experiences",
+    "Desenvolvedor Front-End apaixonado por criar experiências web excepcionais, rápidas e responsivas",
   summary:
-    "With 4 years of experience as a Front-End Developer, my expertise in ReactJS and NextJS enables me to create responsive and optimized web pages for multiple devices. I stand out by significantly enhancing performance through refactoring strategies and implementing script automations via Google Tag Manager. I am committed to code reviews, ensuring excellence and adherence to best practices.",
+    "Como Desenvolvedor Front-End, estou me especializando em React e Next.js para criar páginas web responsivas e otimizadas para diferentes dispositivos. Estou empenhado em aprender estratégias de refatoração para melhorar o desempenho e tenho começado a explorar automações de scripts com Google Tag Manager. Estou comprometido com revisões de código, buscando melhorar e seguir as melhores práticas.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -53,8 +53,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "State University of Rio de Janeiro",
-      degree: "Bachelor's Degree in Computer Science",
+      school: "Universidade do Estado Rio de Janeiro",
+      degree: "Bacharel em Ciência da Computação",
       start: "2011",
       end: "2019",
     },
@@ -63,13 +63,13 @@ export const RESUME_DATA = {
     {
       company: "Red Ventures Brasil",
       link: "https://redventures.com.br/",
-      badges: ["Remote"],
+      badges: ["Remoto"],
       title: "Web Programmer",
       logo: ParabolLogo,
-      start: "2021",
-      end: "2023",
+      start: "10/2021",
+      end: "07/2023",
       description:
-        "Implemented new features, worked on improving the apps performance, developed and maintained the front-end of web applications. Technologies: React, JavaScript, GatsbyJS",
+        "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: HTML5, Sass, JavaScript, React, GatsbyJs, Cypress, New Relic",
     },
     {
       company: "Commerce Growth",
@@ -77,10 +77,10 @@ export const RESUME_DATA = {
       badges: ["Rio de Janeiro"],
       title: "Front-End Development Trainee → Jr Front-End Developer",
       logo: ClevertechLogo,
-      start: "2019",
-      end: "2021",
+      start: "05/2019",
+      end: "10/2021",
       description:
-        "Developed and maintained high-performance e-commerce sites. Documented and implemented tracking tags (Google Analytics, Google Ads, Facebook Pixel) via GTM. Technologies: VTEX CMS, JavaScript, Sass, Pugjs, Gulpjs",
+        "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS",
     },
     {
       company: "Nasajon",
@@ -88,10 +88,10 @@ export const RESUME_DATA = {
       badges: ["Rio de Janeiro"],
       title: "Front-End Development Intern",
       logo: JojoMobileLogo,
-      start: "2017",
-      end: "2018",
+      start: "07/2017",
+      end: "10/2018",
       description:
-        "Collaborated with WordPress, implementing custom features and themes",
+        "Implementei features e temas personalizados em Wordpress. Tecnologias: HTML5, CSS3, jQuery, Wordpress",
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -105,63 +105,24 @@ export const RESUME_DATA = {
     // },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js",
-    "Redux",
     "HTML5",
     "CSS3",
     "Sass",
     "Styled Components",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Redux",
     "VTEX CMS",
     "Firebase",
   ],
   projects: [
     {
-      title: "Thalita Torres",
-      techStack: [
-        "Side Project",
-        "JavaScript",
-        "Next.js",
-        "CSS3",
-        "Sass Modules",
-        "EmailJS",
-      ],
-      description:
-        "Thalita Torres's portfolio, showcasing her skills in design, usability, and user experience",
-      logo: ConsultlyLogo,
-      link: {
-        label: "thalitatorres.com.br",
-        href: "https://www.thalitatorres.com.br/",
-      },
-    },
-    {
-      title: "Shopping Cart",
-      techStack: ["Side Project", "JavaScript", "Reactjs", "API"],
-      description:
-        "Lists, searches, and manages products from the Mercado Livre API, featuring functionalities to add and remove items",
-      logo: MonitoLogo,
-      link: {
-        label: "shopping-cart-nine-mu.vercel.app",
-        href: "https://shopping-cart-nine-mu.vercel.app/",
-      },
-    },
-    {
-      title: "Primeflix",
-      techStack: ["Side Project", "Sass", "JavaScript", "Reactjs", "API"],
-      description:
-        "Project that lists movies from The Movie DB API, allowing users to add and remove favorites",
-      logo: JarockiMeLogo,
-      link: {
-        label: "primeflix-psi.vercel.app",
-        href: "https://primeflix-psi.vercel.app/",
-      },
-    },
-    {
       title: "Jadson Santos",
-      techStack: ["Side Project", "Next.js", "TypeScript", "Sass Modules"],
+      techStack: ["Side Project", "Next.js", "TypeScript"],
       description:
-        "My portfolio containing my projects and main technical skills",
+        "Meu portfólio contendo meus projetos e principais conhecimentos técnicos",
       logo: Minimal,
       link: {
         label: "jadsonsantos.dev.br",
@@ -169,20 +130,61 @@ export const RESUME_DATA = {
       },
     },
     {
+      title: "Thalita Torres",
+      techStack: [
+        "Side Project",
+        "JavaScript",
+        "Next.js",
+        "Sass",
+        "SCSS Modules",
+        "EmailJS",
+      ],
+      description:
+        "Portfólio da Thalita Torres, mostrando suas habilidades em design, usabilidade e experiência do usuário",
+      logo: ConsultlyLogo,
+      link: {
+        label: "thalitatorres.com.br",
+        href: "https://www.thalitatorres.com.br/",
+      },
+    },
+    {
       title: "Club Ecommerce",
       techStack: [
         "Side Project",
-        "Reactjs",
+        "React.js",
+        "TypeScript",
         "Redux",
         "Styled Components",
         "Firebase",
       ],
       description:
-        "E-commerce project that offers an intuitive and easy-to-use platform for listing and adding products to the shopping cart.",
+        "Projeto de ecommerce que oferece uma plataforma intuitiva e fácil de usar para listar e adicionar produtos ao carrinho.",
       logo: BarepapersLogo,
       link: {
         label: "clubecommerce.jadsonsantos.dev.br",
         href: "https://clubecommerce.jadsonsantos.dev.br/",
+      },
+    },
+    {
+      title: "Shopping Cart",
+      techStack: ["Side Project", "JavaScript", "React", "API"],
+      description:
+        "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens",
+      logo: MonitoLogo,
+      link: {
+        label: "mercadolivre.jadsonsantos.dev.br",
+        href: "https://mercadolivre.jadsonsantos.dev.br/",
+      },
+    },
+    {
+      title: "Primeflix",
+      techStack: ["Side Project", "Sass", "TypeScript", "React", "API"],
+      description:
+        "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos",
+      logo: JarockiMeLogo,
+      link: {
+        label: "primeflix-psi.vercel.app",
+        href: "https://primeflix-psi.vercel.app/",
       },
     },
     // {
