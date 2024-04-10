@@ -25,9 +25,9 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Desenvolvedor Front-End apaixonado por criar experiências web excepcionais, rápidas e responsivas",
+    "Desenvolvedor Front-End apaixonado por criar experiências web rápidas e responsivas.",
   summary:
-    "Como Desenvolvedor Front-End, estou me especializando em React e Next.js para criar páginas web responsivas e otimizadas para diferentes dispositivos. Estou empenhado em aprender estratégias de refatoração para melhorar o desempenho e tenho começado a explorar automações de scripts com Google Tag Manager. Estou comprometido com revisões de código, buscando melhorar e seguir as melhores práticas.",
+    "Como Desenvolvedor Front-End, estou focado na especialização em React e Next.js, com o objetivo de desenvolver páginas web responsivas e otimizadas para diferentes dispositivos. Minha abordagem é centrada na busca constante por estratégias de refatoração eficazes para maximizar o desempenho das aplicações. Estou comprometido com revisões de código, buscando aprimorar a qualidade do código e adotar as melhores práticas do setor.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -187,104 +187,5 @@ export const RESUME_DATA = {
         href: "https://primeflix-psi.vercel.app/",
       },
     },
-    // {
-    //   title: "Year progress",
-    //   techStack: ["Side Project", "TypeScript", "Next.js"],
-    //   description: "Tracks current year progress and displays a countdown",
-    //   logo: YearProgressLogo,
-    //   link: {
-    //     label: "getyearprogress.com",
-    //     href: "https://getyearprogress.com/",
-    //   },
-    // },
-    // {
-    //   title: "Parabol",
-    //   techStack: [
-    //     "Full Stack Developer",
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "The Agile meeting co-pilot that delivers better meetings with less effort",
-    //   logo: ParabolLogo,
-    //   link: {
-    //     label: "github.com",
-    //     href: "https://parabol.co/",
-    //   },
-    // },
-    // {
-    //   title: "Evercast",
-    //   techStack: [
-    //     "Lead Frontend Developer",
-
-    //     "TypeScript",
-    //     "React",
-    //     "Node.js",
-    //     "GraphQL",
-    //   ],
-    //   description:
-    //     "Creative collaboration platform that combines video conferencing and HD media streaming",
-    //   logo: EvercastLogo,
-    //   link: {
-    //     label: "evercast.us",
-    //     href: "https://www.evercast.us/",
-    //   },
-    // },
-    // {
-    //   title: "Mobile Vikings",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for leading virtual mobile operator in Poland",
-    //   logo: MobileVikingsLogo,
-    //   link: {
-    //     label: "mobilevikings.pl",
-    //     href: "https://mobilevikings.pl/",
-    //   },
-    // },
-    // {
-    //   title: "Howdy",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Howdy is a place for you to join communities you care about",
-    //   logo: Howdy,
-    //   link: {
-    //     label: "play.google.com",
-    //     href: "https://howdy.co/",
-    //   },
-    // },
-    // {
-    //   title: "Tastycloud",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application for managing and displaying restaurant menus in kiosk mode",
-    //   logo: TastyCloudLogo,
-    //   link: {
-    //     label: "tastycloud.fr",
-    //     href: "https://www.tastycloud.fr/",
-    //   },
-    // },
-    // {
-    //   title: "Ambit",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with sharing your contact details",
-    //   logo: AmbitLogo,
-    // },
-    // {
-    //   title: "Bim",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Android application that helps with booking a table in a restaurants",
-    //   logo: BimLogo,
-    // },
-    // {
-    //   title: "Canal Digital GO",
-    //   techStack: ["Lead Android Developer", "Android", "Kotlin"],
-    //   description:
-    //     "Video streaming mobile application for Canal Digital subscribers",
-    //   logo: CDGOLogo,
-    // },
   ],
 } as const;
