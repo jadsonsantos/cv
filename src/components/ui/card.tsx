@@ -55,17 +55,33 @@ CardDescription.displayName = "CardDescription";
 
 const CardContent = React.forwardRef<
   HTMLDivElement,
-  React.HTMLAttributes<HTMLDivElement>
->(({ className, ...props }, ref) => (
-  <div
-    ref={ref}
-    className={cn(
-      "text-pretty font-mono text-sm text-muted-foreground",
-      className,
-    )}
-    {...props}
-  />
-));
+  React.HTMLAttributes<HTMLDivElement> & { htmlContent?: string }
+>(({ className, htmlContent, ...props }, ref) => {
+  if (htmlContent) {
+    return (
+      <div
+        ref={ref}
+        className={cn(
+          "text-pretty font-mono text-sm text-muted-foreground",
+          className,
+        )}
+        dangerouslySetInnerHTML={{ __html: htmlContent }}
+        {...props}
+      />
+    );
+  }
+
+  return (
+    <div
+      ref={ref}
+      className={cn(
+        "text-pretty font-mono text-sm text-muted-foreground",
+        className,
+      )}
+      {...props}
+    />
+  );
+});
 CardContent.displayName = "CardContent";
 
 const CardFooter = React.forwardRef<

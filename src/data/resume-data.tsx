@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "Desenvolvedor Front-End apaixonado por criar experiências web rápidas e responsivas.",
   summary:
-    "Como Desenvolvedor Front-End, estou focado na especialização em React e Next.js, com o objetivo de desenvolver páginas web responsivas e otimizadas para diferentes dispositivos. Minha abordagem é centrada na busca constante por estratégias de refatoração eficazes para maximizar o desempenho das aplicações. Estou comprometido com revisões de código, buscando aprimorar a qualidade do código e adotar as melhores práticas do setor.",
+    "Como Desenvolvedor Front-End, estou me especializando em React e Next.js, com foco na criação de experiências web rápidas, responsivas e otimizadas para diferentes dispositivos. Minha abordagem é centrada na busca constante por estratégias de refatoração eficazes para maximizar o desempenho das aplicações. Comprometido com com a refatoração eficaz e a adoção de melhores práticas para maximizar o desempenho das aplicações.",
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/jadsonsantos/",
+        url: "https://www.linkedin.com/in/jadsonsantos",
         icon: LinkedInIcon,
       },
       // {
@@ -64,34 +64,37 @@ export const RESUME_DATA = {
       company: "Red Ventures Brasil",
       link: "https://redventures.com.br/",
       badges: ["Remoto"],
-      title: "Web Programmer",
+      title: "Programador Web",
       logo: ParabolLogo,
       start: "10/2021",
       end: "07/2023",
-      description:
-        "Implementei novas features, trabalhei na melhoria do desempenho das aplicações, desenvolvi e mantive o front-end de aplicações web. Tecnologias: HTML5, Sass, JavaScript, React, GatsbyJs, Cypress, New Relic",
+      description: `- Implementei novas features e melhoras de desempenho em aplicações web, utilizando React e GatsbyJs.<br/> 
+        - Desenvolvi e mantive o front-end das aplicações, com foco em responsividade e otimização das telas.<br/> 
+        - Utilizei Cypress para testes automatizados, e New Relic para monitoramento de desempenho, contribuindo para a melhoria contínua da experiência do usuário.`,
     },
     {
       company: "Commerce Growth",
       link: "https://commercegrowth.ag/",
       badges: ["Rio de Janeiro"],
-      title: "Front-End Development Trainee → Jr Front-End Developer",
+      title: "Front-End Developer",
       logo: ClevertechLogo,
       start: "05/2019",
       end: "10/2021",
-      description:
-        "Desenvolvi e mantive sites de e-commerce. Documentei e implementei tags de rastreamento (Google Analytics, Google Ads, Facebook Pixel) via GTM. Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS",
+      description: `- Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, focado em usabilidade e performance.<br/> 
+      - Implementei tags de rastreamento como o Google Analytics, Google Ads, Facebook Pixel utilizando o Google Tag Manager. Isso otimizou a análise de dados e a gestão de campanhas pelo time de marketing. <br/>
+      - Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
     },
     {
       company: "Nasajon",
       link: "https://nasajon.com.br/",
       badges: ["Rio de Janeiro"],
-      title: "Front-End Development Intern",
+      title: "Desenvolvedor Front-End",
       logo: JojoMobileLogo,
       start: "07/2017",
       end: "10/2018",
-      description:
-        "Implementei features e temas personalizados em Wordpress. Tecnologias: HTML5, CSS3, jQuery, Wordpress",
+      description: `- Desenvolvi e mantive temas em Wordpress, aprimorando a experiência do usuário e eficiência do site.<br/>
+      - Colaborei na implementação de tags de rastreamento e na integração de ferramentas, como o RD Station, otimizando as estratégias de marketing e melhorando a visibilidade e eficácia das campanhas.<br/>
+      - Tecnologias: HTML5, CSS3, jQuery, Wordpress`,
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -122,7 +125,7 @@ export const RESUME_DATA = {
       title: "Jadson Santos",
       techStack: ["Side Project", "Next.js", "TypeScript"],
       description:
-        "Meu portfólio contendo meus projetos e principais conhecimentos técnicos",
+        "Desenvolvi um site responsivo para apresentar meu portfólio, utilizando React e Next.js.",
       logo: Minimal,
       link: {
         label: "jadsonsantos.dev.br",
@@ -140,7 +143,7 @@ export const RESUME_DATA = {
         "EmailJS",
       ],
       description:
-        "Portfólio da Thalita Torres, mostrando suas habilidades em design, usabilidade e experiência do usuário",
+        "Portfólio da Thalita Torres, mostrando suas habilidades em design, usabilidade e experiência do usuário.",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
@@ -169,7 +172,7 @@ export const RESUME_DATA = {
       title: "Shopping Cart",
       techStack: ["Side Project", "JavaScript", "React", "API"],
       description:
-        "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens",
+        "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens.",
       logo: MonitoLogo,
       link: {
         label: "mercadolivre.jadsonsantos.dev.br",
@@ -180,7 +183,7 @@ export const RESUME_DATA = {
       title: "Primeflix",
       techStack: ["Side Project", "Sass", "TypeScript", "React", "API"],
       description:
-        "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos",
+        "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos.",
       logo: JarockiMeLogo,
       link: {
         label: "primeflix-psi.vercel.app",
