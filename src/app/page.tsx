@@ -74,6 +74,13 @@ export default function Page() {
               ))}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
+              {RESUME_DATA.contact.social[1].url ? (
+                <a href={RESUME_DATA.contact.social[1].url}>
+                  <span className="underline">
+                    {RESUME_DATA.contact.social[1].url}
+                  </span>
+                </a>
+              ) : null}
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>
@@ -131,9 +138,10 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
-                </CardContent>
+                <CardContent
+                  className="mt-2 text-xs"
+                  htmlContent={work.description}
+                />
               </Card>
             );
           })}
@@ -167,7 +175,7 @@ export default function Page() {
           </div>
         </Section>
 
-        <Section className="print-force-new-page scroll-mb-16">
+        <Section className="scroll-mb-16 print:flex">
           <h2 className="text-xl font-bold">Projetos</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
