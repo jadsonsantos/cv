@@ -61,6 +61,18 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Avanti",
+      link: "https://penseavanti.com.br/ecommerce/",
+      badges: ["Remoto"],
+      title: "Front-End Developer",
+      logo: ClevertechLogo,
+      start: "04/2024",
+      end: "atualmente",
+      description: `- Desenvolvi e mantive sites de e-commerce, focado em usabilidade e performance.<br/> 
+      - Implementei tags de rastreamento como o Google Analytics, Google Ads, Facebook Pixel utilizando o Google Tag Manager. Isso otimizou a análise de dados e a gestão de campanhas pelo time de marketing. <br/>
+      - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Grunt, VTEX CMS/IO`,
+    },
+    {
       company: "Red Ventures Brasil",
       link: "https://redventures.com.br/",
       badges: ["Remoto"],
@@ -116,6 +128,7 @@ export const RESUME_DATA = {
     "TypeScript",
     "React",
     "Next.js",
+    "GatsbyJs",
     "Redux",
     "VTEX CMS",
     "Firebase",
