@@ -27,7 +27,9 @@ export const RESUME_DATA = {
   about:
     "Desenvolvedor Front-End apaixonado por criar experiências web rápidas e responsivas.",
   summary:
-    "Como Desenvolvedor Front-End, estou me especializando em React e Next.js, com foco na criação de experiências web rápidas, responsivas e otimizadas para diferentes dispositivos. Minha abordagem é centrada na busca constante por estratégias de refatoração eficazes para maximizar o desempenho das aplicações. Comprometido com com a refatoração eficaz e a adoção de melhores práticas para maximizar o desempenho das aplicações.",
+    `
+    Com 5 anos de experiência na área de desenvolvimento front-end. Participei do desenvolvimento e manutenção de projetos e-commerce e de iniciativas de aquisição digital de produtos de uma grande instituição financeira.
+    Trabalhei para marcas como Maria Filó, Baggagio e Michael Kors, onde contribuí para a criação e manutenção de sites e-commerce responsivos e otimizados para conversão, utilizando a plataforma VTEX. `,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -68,9 +70,8 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "04/2024",
       end: "atualmente",
-      description: `- Desenvolvi e mantive sites de e-commerce, focado em usabilidade e performance.<br/> 
-      - Implementei tags de rastreamento como o Google Analytics, Google Ads, Facebook Pixel utilizando o Google Tag Manager. Isso otimizou a análise de dados e a gestão de campanhas pelo time de marketing. <br/>
-      - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Grunt, VTEX CMS/IO`,
+      description: `- Desenvolvi e mantive sites de e-commerce, focado em usabilidade e performance.<br/>
+      - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
     },
     {
       company: "Red Ventures Brasil",
@@ -80,8 +81,8 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "10/2021",
       end: "07/2023",
-      description: `- Implementei novas features e melhoras de desempenho em aplicações web, utilizando React e GatsbyJs.<br/> 
-        - Desenvolvi e mantive o front-end das aplicações, com foco em responsividade e otimização das telas.<br/> 
+      description: `- Implementei novas features e melhoras de desempenho em aplicações web, utilizando React e GatsbyJs.<br/>
+        - Desenvolvi e mantive o front-end das aplicações, com foco em responsividade e otimização das telas.<br/>
         - Utilizei Cypress para testes automatizados, e New Relic para monitoramento de desempenho, contribuindo para a melhoria contínua da experiência do usuário.`,
     },
     {
@@ -92,7 +93,7 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "05/2019",
       end: "10/2021",
-      description: `- Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, focado em usabilidade e performance.<br/> 
+      description: `- Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, focado em usabilidade e performance.<br/>
       - Implementei tags de rastreamento como o Google Analytics, Google Ads, Facebook Pixel utilizando o Google Tag Manager. Isso otimizou a análise de dados e a gestão de campanhas pelo time de marketing. <br/>
       - Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
     },
@@ -124,6 +125,7 @@ export const RESUME_DATA = {
     "CSS3",
     "Sass",
     "Styled Components",
+    "TailwindCSS",
     "JavaScript",
     "TypeScript",
     "React",
@@ -161,6 +163,23 @@ export const RESUME_DATA = {
       link: {
         label: "thalitatorres.com.br",
         href: "https://www.thalitatorres.com.br/",
+      },
+    },
+    {
+      title: "Harpá",
+      techStack: [
+        "Side Project",
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Styled Components",
+      ],
+      description:
+        "Site da agência de expedição Harpa, com foco em responsividade e otimização das telas.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "https://harpa-ten.vercel.app",
+        href: "https://harpa-ten.vercel.app/",
       },
     },
     {
