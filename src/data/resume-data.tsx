@@ -28,7 +28,7 @@ export const RESUME_DATA = {
     "Desenvolvedor Front-End apaixonado por criar experiências web rápidas e responsivas.",
   summary:
     `
-    Com 5 anos de experiência na área de desenvolvimento front-end. Participei do desenvolvimento e manutenção de projetos e-commerce e de iniciativas de aquisição digital de produtos de uma grande instituição financeira.
+    Com 5 anos de experiência na área de desenvolvimento front-end, participei do desenvolvimento e manutenção de projetos e-commerce e de aplicações web para aquisição digital de produtos de uma grande instituição financeira.
     Trabalhei para marcas como Maria Filó, Baggagio e Michael Kors, onde contribuí para a criação e manutenção de sites e-commerce responsivos e otimizados para conversão, utilizando a plataforma VTEX. `,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "04/2024",
       end: "atualmente",
-      description: `- Desenvolvi e mantive sites de e-commerce, focado em usabilidade e performance.<br/>
+      description: `- Desenvolvi e mantive sites de e-commerce, com foco em usabilidade e performance.<br/>
       - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
     },
     {
@@ -81,9 +81,9 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "10/2021",
       end: "07/2023",
-      description: `- Implementei novas features e melhoras de desempenho em aplicações web, utilizando React e GatsbyJs.<br/>
+      description: `- Implementei novas features e melhorias de desempenho em aplicações web, utilizando React e GatsbyJs.<br/>
         - Desenvolvi e mantive o front-end das aplicações, com foco em responsividade e otimização das telas.<br/>
-        - Utilizei Cypress para testes automatizados, e New Relic para monitoramento de desempenho, contribuindo para a melhoria contínua da experiência do usuário.`,
+        - Utilizei Cypress para testes automatizados e New Relic para monitoramento do desempenho, contribuindo para a melhoria contínua da experiência do usuário.`,
     },
     {
       company: "Commerce Growth",
