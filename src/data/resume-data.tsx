@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Desenvolvedor Front End, com 5 anos de experiência.",
+    "Desenvolvedor Front End",
   summary:
     `
     Com 5 anos de experiência na área de desenvolvimento front end, desenvolvi e mantive projetos e-commerce e aplicações web para aquisição digital de produtos de uma grande instituição financeira.
