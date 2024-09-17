@@ -25,11 +25,11 @@ export const RESUME_DATA = {
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about:
-    "Desenvolvedor Front-End apaixonado por criar experiências web rápidas e responsivas.",
+    "Desenvolvedor Front End, com 5 anos de experiência.",
   summary:
     `
-    Com 5 anos de experiência na área de desenvolvimento front-end, participei do desenvolvimento e manutenção de projetos e-commerce e de aplicações web para aquisição digital de produtos de uma grande instituição financeira.
-    Trabalhei para marcas como Maria Filó, Baggagio e Michael Kors, onde contribuí para a criação e manutenção de sites e-commerce responsivos e otimizados para conversão, utilizando a plataforma VTEX. `,
+    Com 5 anos de experiência na área de desenvolvimento front end, desenvolvi e mantive projetos e-commerce e aplicações web para aquisição digital de produtos de uma grande instituição financeira.
+    Trabalhei para algumas marcas, onde desenvolvi e mantive sites e-commerce responsivos e otimizados para conversão. `,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "04/2024",
       end: "atualmente",
-      description: `- Desenvolvi e mantive sites de e-commerce, com foco em usabilidade e performance.<br/>
+      description: `- Desenvolvi e mantive sites de e-commerce, com foco em conversão e responsividade.<br/>
       - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
     },
     {
@@ -81,9 +81,10 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       start: "10/2021",
       end: "07/2023",
-      description: `- Implementei novas features e melhorias de desempenho em aplicações web, utilizando React e GatsbyJs.<br/>
-        - Desenvolvi e mantive o front-end das aplicações, com foco em responsividade e otimização das telas.<br/>
-        - Utilizei Cypress para testes automatizados e New Relic para monitoramento do desempenho, contribuindo para a melhoria contínua da experiência do usuário.`,
+      description: `
+        - Desenvolvi e mantive o front-end das aplicações, implementando novas features e melhorias de carregamento das páginas.<br/>
+        - Tecnologias: HTML5, Sass, JavaScript, ReactJs, GatsbyJs
+        `,
     },
     {
       company: "Commerce Growth",
@@ -94,7 +95,6 @@ export const RESUME_DATA = {
       start: "05/2019",
       end: "10/2021",
       description: `- Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, focado em usabilidade e performance.<br/>
-      - Implementei tags de rastreamento como o Google Analytics, Google Ads, Facebook Pixel utilizando o Google Tag Manager. Isso otimizou a análise de dados e a gestão de campanhas pelo time de marketing. <br/>
       - Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
     },
     {
@@ -105,7 +105,7 @@ export const RESUME_DATA = {
       logo: JojoMobileLogo,
       start: "07/2017",
       end: "10/2018",
-      description: `- Desenvolvi e mantive temas em Wordpress, aprimorando a experiência do usuário e eficiência do site.<br/>
+      description: `- Desenvolvi e mantive temas em Wordpress, criando novas funcionalidades.<br/>
       - Colaborei na implementação de tags de rastreamento e na integração de ferramentas, como o RD Station, otimizando as estratégias de marketing e melhorando a visibilidade e eficácia das campanhas.<br/>
       - Tecnologias: HTML5, CSS3, jQuery, Wordpress`,
     },
@@ -140,11 +140,28 @@ export const RESUME_DATA = {
       title: "Jadson Santos",
       techStack: ["Side Project", "Next.js", "TypeScript"],
       description:
-        "Desenvolvi um site responsivo para apresentar meu portfólio, utilizando React e Next.js.",
+        "Site responsivo que apresenta meu portfólio, desenvolvido em Next.js.",
       logo: Minimal,
       link: {
         label: "jadsonsantos.dev.br",
         href: "https://jadsonsantos.dev.br/",
+      },
+    },
+    {
+      title: "Harpá",
+      techStack: [
+        "Side Project",
+        "React",
+        "TypeScript",
+        "Next.js",
+        "Styled Components",
+      ],
+      description:
+        "Site da agência de expedição Harpa, desenvolvido em Next.js.",
+      logo: ConsultlyLogo,
+      link: {
+        label: "harpa.me",
+        href: "https://harpa.me",
       },
     },
     {
@@ -158,28 +175,11 @@ export const RESUME_DATA = {
         "EmailJS",
       ],
       description:
-        "Portfólio da Thalita Torres, mostrando suas habilidades em design, usabilidade e experiência do usuário.",
+        "Portfólio da Thalita Torres, que apresenta suas habilidades em design e experiência do usuário.",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
         href: "https://www.thalitatorres.com.br/",
-      },
-    },
-    {
-      title: "Harpá",
-      techStack: [
-        "Side Project",
-        "React",
-        "TypeScript",
-        "Next.js",
-        "Styled Components",
-      ],
-      description:
-        "Site da agência de expedição Harpa, com foco em responsividade e otimização das telas.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "harpa.me",
-        href: "https://harpa.me",
       },
     },
     {
@@ -193,7 +193,7 @@ export const RESUME_DATA = {
         "Firebase",
       ],
       description:
-        "Projeto de ecommerce que oferece uma plataforma intuitiva e fácil de usar para listar e adicionar produtos ao carrinho.",
+        "Ecommerce que apresenta funcionalidades como listar e adicionar produtos ao carrinho.",
       logo: BarepapersLogo,
       link: {
         label: "clubecommerce.jadsonsantos.dev.br",
@@ -204,7 +204,7 @@ export const RESUME_DATA = {
       title: "Shopping Cart",
       techStack: ["Side Project", "JavaScript", "React", "API"],
       description:
-        "Lista, busca e gerencia produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens.",
+        "Lista e busca produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens ao minicart.",
       logo: MonitoLogo,
       link: {
         label: "mercadolivre.jadsonsantos.dev.br",
