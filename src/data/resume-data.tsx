@@ -66,7 +66,7 @@ export const RESUME_DATA = {
       company: "Avanti",
       link: "https://penseavanti.com.br/ecommerce/",
       badges: ["Remoto"],
-      title: "Front-End Developer",
+      title: "Desenvolvedor Front End",
       logo: ClevertechLogo,
       start: "04/2024",
       end: "atualmente",
@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       start: "10/2021",
       end: "07/2023",
       description: `
-        - Desenvolvi e mantive o front-end das aplicações, implementando novas features e melhorias de carregamento das páginas.<br/>
+        - Desenvolvi e mantive o front-end das aplicações, implementando novas features e melhorias na performance das páginas.<br/>
         - Tecnologias: HTML5, Sass, JavaScript, ReactJs, GatsbyJs
         `,
     },
@@ -90,7 +90,7 @@ export const RESUME_DATA = {
       company: "Commerce Growth",
       link: "https://commercegrowth.ag/",
       badges: ["Rio de Janeiro"],
-      title: "Front-End Developer",
+      title: "Desenvolvedor Front End",
       logo: ClevertechLogo,
       start: "05/2019",
       end: "10/2021",
@@ -101,12 +101,11 @@ export const RESUME_DATA = {
       company: "Nasajon",
       link: "https://nasajon.com.br/",
       badges: ["Rio de Janeiro"],
-      title: "Desenvolvedor Front-End",
+      title: "Desenvolvedor Front End",
       logo: JojoMobileLogo,
       start: "07/2017",
       end: "10/2018",
       description: `- Desenvolvi e mantive temas em Wordpress, criando novas funcionalidades.<br/>
-      - Colaborei na implementação de tags de rastreamento e na integração de ferramentas, como o RD Station, otimizando as estratégias de marketing e melhorando a visibilidade e eficácia das campanhas.<br/>
       - Tecnologias: HTML5, CSS3, jQuery, Wordpress`,
     },
     // {
@@ -138,7 +137,14 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "Jadson Santos",
-      techStack: ["Side Project", "Next.js", "TypeScript"],
+      techStack: [
+        "Side Project",
+        "React",
+        "Next.js",
+        "TypeScript",
+        "SCSS Modules",
+        "Sass"
+      ],
       description:
         "Site responsivo que apresenta meu portfólio, desenvolvido em Next.js.",
       logo: Minimal,
@@ -157,7 +163,7 @@ export const RESUME_DATA = {
         "Styled Components",
       ],
       description:
-        "Site da agência de expedição Harpa, desenvolvido em Next.js.",
+        "Site da agência de expedição Harpá, desenvolvido em Next.js.",
       logo: ConsultlyLogo,
       link: {
         label: "harpa.me",
@@ -169,6 +175,7 @@ export const RESUME_DATA = {
       techStack: [
         "Side Project",
         "JavaScript",
+        "React",
         "Next.js",
         "Sass",
         "SCSS Modules",
@@ -180,46 +187,6 @@ export const RESUME_DATA = {
       link: {
         label: "thalitatorres.com.br",
         href: "https://www.thalitatorres.com.br/",
-      },
-    },
-    {
-      title: "Club Ecommerce",
-      techStack: [
-        "Side Project",
-        "React.js",
-        "TypeScript",
-        "Redux",
-        "Styled Components",
-        "Firebase",
-      ],
-      description:
-        "Ecommerce que apresenta funcionalidades como listar e adicionar produtos ao carrinho.",
-      logo: BarepapersLogo,
-      link: {
-        label: "clubecommerce.jadsonsantos.dev.br",
-        href: "https://clubecommerce.jadsonsantos.dev.br/",
-      },
-    },
-    {
-      title: "Shopping Cart",
-      techStack: ["Side Project", "JavaScript", "React", "API"],
-      description:
-        "Lista e busca produtos da API do Mercado Livre, oferecendo funcionalidades para adicionar e remover itens ao minicart.",
-      logo: MonitoLogo,
-      link: {
-        label: "mercadolivre.jadsonsantos.dev.br",
-        href: "https://mercadolivre.jadsonsantos.dev.br/",
-      },
-    },
-    {
-      title: "Primeflix",
-      techStack: ["Side Project", "Sass", "TypeScript", "React", "API"],
-      description:
-        "Projeto que lista filmes da API The Movie DB, permitindo aos usuários adicionar e remover favoritos.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "https://primeflix.jadsonsantos.dev.br",
-        href: "https://https://primeflix.jadsonsantos.dev.br/",
       },
     },
   ],
