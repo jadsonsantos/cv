@@ -177,7 +177,7 @@ export default function Page() {
 
         <Section className="scroll-mb-16 print:flex">
           <h2 className="text-xl font-bold">Projetos</h2>
-          <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
+          <div className="-mx-3 flex grid-cols-1 flex-col gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
