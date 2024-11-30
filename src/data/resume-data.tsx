@@ -24,12 +24,9 @@ export const RESUME_DATA = {
   initials: "JS",
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
-  about:
-    "Desenvolvedor Front End",
-  summary:
-    `
-    Com 5 anos de experiência na área de desenvolvimento front end, desenvolvi e mantive projetos e-commerce e aplicações web para aquisição digital de produtos de uma grande instituição financeira.
-    Trabalhei para algumas marcas, onde desenvolvi e mantive sites e-commerce responsivos e otimizados para conversão. `,
+  about: "Desenvolvedor Front-End",
+  summary: `
+    Com 5 anos de experiência em desenvolvimento web, trabalhei com importantes marcas e instituições financeiras, onde desenvolvi e mantive projetos e-commerce e aplicações web para aquisição de produtos digitais. Atualmente, estou focado em desenvolvimento digital de produtos focados em usabilidade e otimização de conversão.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -66,12 +63,14 @@ export const RESUME_DATA = {
       company: "Avanti",
       link: "https://penseavanti.com.br/ecommerce/",
       badges: ["Remoto"],
-      title: "Desenvolvedor Front End",
+      title: "Desenvolvedor Front-End",
       logo: ClevertechLogo,
       start: "04/2024",
       end: "atualmente",
-      description: `- Desenvolvi e mantive sites de e-commerce, com foco em conversão e responsividade.<br/>
-      - Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
+      description: `° Desenvolvi e mantive sites de e-commerce de alto tráfego, focando em usabildade e otimização de conversão.<br/>
+      ° Desenvolvi componentes reutilizáveis e otimizados para o front-end.<br/>
+      ° Contribuí para melhorar a qualidade do código através de otimizações e refatorações.<br/>
+      ° Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
     },
     {
       company: "Red Ventures Brasil",
@@ -82,31 +81,35 @@ export const RESUME_DATA = {
       start: "10/2021",
       end: "07/2023",
       description: `
-        - Desenvolvi e mantive o front-end das aplicações, implementando novas features e melhorias na performance das páginas.<br/>
-        - Tecnologias: HTML5, Sass, JavaScript, ReactJs, GatsbyJs
+        ° Otimizei o desempenho das páginas, reduzindo significativamente o tempo de carregamento e aumentando a pontuação no PageSpeed.<br/>
+        ° Contribuí para melhorar a qualidade do código através de revisões via pull resquests.<br/>
+        ° Colaborei em times ágeis, utilizando metodologias ágeis como SCRUM.<br/>
+        ° Tecnologias: HTML5, Sass, JavaScript, ReactJs, GatsbyJs
         `,
     },
     {
       company: "Commerce Growth",
       link: "https://commercegrowth.ag/",
       badges: ["Rio de Janeiro"],
-      title: "Desenvolvedor Front End",
+      title: "Desenvolvedor Front-End",
       logo: ClevertechLogo,
       start: "05/2019",
       end: "10/2021",
-      description: `- Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, focado em usabilidade e performance.<br/>
-      - Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
+      description: `° Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, garantindo experiências de usuário otimizadas e responsivas.<br/>
+      ° Implementei e mantive tags de rastreamento avançadas através do Google Tag Manager (GTM), incluindo Google Analytics, Google Ads e Facebook Pixel. Isso permitiu análises precisas e estratégias de marketing eficazes para os clientes.
+      <br/>
+      ° Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
     },
     {
       company: "Nasajon",
       link: "https://nasajon.com.br/",
       badges: ["Rio de Janeiro"],
-      title: "Desenvolvedor Front End",
+      title: "Desenvolvedor Front-End",
       logo: JojoMobileLogo,
       start: "07/2017",
       end: "10/2018",
-      description: `- Desenvolvi e mantive temas em Wordpress, criando novas funcionalidades.<br/>
-      - Tecnologias: HTML5, CSS3, jQuery, Wordpress`,
+      description: `Meu papel principal foi desenvolver e manter temas em WordPress, criando novas funcionalidades para melhorar a experiência do usuário.<br/> Utilizei tecnologias como HTML5, CSS3 e jQuery para construir soluções dinâmicas e interativas, resultando em plataformas eficientes para nossos clientes.<br/>
+      `,
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -124,29 +127,19 @@ export const RESUME_DATA = {
     "Next.js",
     "GatsbyJs",
     "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
+    "Redux",
     "Sass",
     "Styled Components",
     "TailwindCSS",
-    "Redux",
-    "VTEX CMS",
-    "Firebase",
+    "VTEX",
+    "Metodologias Ágeis",
   ],
   projects: [
     {
       title: "Jadson Santos",
-      techStack: [
-        "Side Project",
-        "React",
-        "Next.js",
-        "TypeScript",
-        "SCSS Modules",
-        "Sass"
-      ],
+      techStack: ["React", "Next.js", "TypeScript", "SCSS Modules", "Sass"],
       description:
-        "Site responsivo que apresenta meu portfólio, desenvolvido em Next.js.",
+        "Portfólio responsivo, desenvolvido em Next.js com componentes reutilizáveis e estilizados usando SCSS Modules e Sass. A arquitetura modular garante facilidade na manutenção e atualização do conteúdo.",
       logo: Minimal,
       link: {
         label: "jadsonsantos.dev.br",
@@ -156,14 +149,14 @@ export const RESUME_DATA = {
     {
       title: "Harpá",
       techStack: [
-        "Side Project",
         "React",
-        "TypeScript",
         "Next.js",
+        "TypeScript",
         "Styled Components",
+        "SwiperJS",
       ],
       description:
-        "Site da agência de expedição Harpá, desenvolvido em Next.js.",
+        "Site da agência de expedição Harpá, desenvolvido em Next.js. Implementado com componentes reutilizáveis e estilizados usando Styled Components. Incorpora funcionalidades avançadas como galerias dinâmicas com SwiperJS. Conta com uma estrutura modular, separando claramente as responsabilidades, facilitando a manutenção e escalabilidade do site.",
       logo: ConsultlyLogo,
       link: {
         label: "harpa.me",
@@ -173,16 +166,15 @@ export const RESUME_DATA = {
     {
       title: "Thalita Torres",
       techStack: [
-        "Side Project",
-        "JavaScript",
         "React",
         "Next.js",
+        "JavaScript",
         "Sass",
         "SCSS Modules",
         "EmailJS",
       ],
       description:
-        "Portfólio da Thalita Torres, que apresenta suas habilidades em design e experiência do usuário.",
+        "Este portfólio é uma plataforma robusta desenvolvida em Next.js e React, exibindo habilidades em design e experiência do usuário. Implementado com JavaScript e estilizado usando Sass e SCSS Modules, oferece uma interface visual atraente e responsiva. A plataforma incorpora funcionalidades avançadas como envio de formulários via EmailJS, permitindo interação direta com o usuário.",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
