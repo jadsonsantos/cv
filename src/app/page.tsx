@@ -74,13 +74,13 @@ export default function Page() {
               ))}
             </div>
             <div className="hidden flex-col gap-x-1 font-mono text-sm text-muted-foreground print:flex">
-              {RESUME_DATA.contact.social[1].url ? (
-                <a href={RESUME_DATA.contact.social[1].url}>
-                  <span className="underline">
-                    {RESUME_DATA.contact.social[1].url}
-                  </span>
-                </a>
-              ) : null}
+              {RESUME_DATA.contact.social.map((social) =>
+                social.url ? (
+                  <a key={social.name} href={social.url}>
+                    <span className="underline">{social.url}</span>
+                  </a>
+                ) : null,
+              )}
               {RESUME_DATA.contact.email ? (
                 <a href={`mailto:${RESUME_DATA.contact.email}`}>
                   <span className="underline">{RESUME_DATA.contact.email}</span>

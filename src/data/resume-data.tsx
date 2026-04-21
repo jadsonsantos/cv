@@ -2,7 +2,6 @@ import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import {
   ClevertechLogo,
   ConsultlyLogo,
-  JojoMobileLogo,
   Minimal,
   ParabolLogo,
 } from "@/images/logos";
@@ -12,9 +11,8 @@ export const RESUME_DATA = {
   initials: "JS",
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
-  about: "Desenvolvedor Front-End",
-  summary: `
-    Desenvolvedor Front-End com 5 anos de experiência em projetos web e e-commerce para empresas de grande porte. Tenho histórico de entrega de interfaces responsivas e acessíveis, com foco em usabilidade, performance e otimização de conversão. Trabalho em equipes multidisciplinares, aplicando boas práticas de código e metodologias ágeis para construir soluções digitais escaláveis e de alta qualidade.`,
+  about: "Desenvolvedor Front-End · Produtos digitais & e-commerce",
+  summary: `Desenvolvedor Front-End com trajetória em produtos digitais e e-commerce de grande porte. Mais de 6 anos entregando interfaces responsivas e acessíveis, com foco em performance web, usabilidade e conversão, em contextos que vão de portais corporativos a lojas de alto tráfego. Colaboro em times multidisciplinares com code review, boas práticas e rituais ágeis. Busco atuar em equipes front-end com stack atual, autonomia técnica e impacto claro em produto e experiência do usuário.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -55,10 +53,9 @@ export const RESUME_DATA = {
       logo: Minimal,
       start: "01/2026",
       end: "atualmente",
-      description: `° Integração com APIs REST e manipulação de dados no client-side.<br/>
-        ° Utilização da plataforma LumisXP para construção de soluções integradas e de alta performance.<br/>
-        ° Desenvolvimento, adaptação e manutenção de templates e componentes front-end para páginas e seções do portal.<br/>
-        ° Participação em reuniões com stakeholders para alinhamento, priorização e validação de entregas.<br/>
+      description: `° Desenvolvimento e manutenção de templates e componentes de interface para portal corporativo na plataforma LumisXP.<br/>
+        ° Integração com APIs REST e consumo de dados no front-end para páginas e seções do portal.<br/>
+        ° Participação em rituais com stakeholders para priorização, alinhamento e validação de entregas.<br/>
         ° Tecnologias: HTML5, CSS3, JavaScript, jQuery, LumisXP CMS`,
     },
     {
@@ -69,10 +66,22 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "04/2024",
       end: "01/2026",
-      description: `° Desenvolvi e mantive sites de e-commerce de alto tráfego, focando em usabildade e otimização de conversão.<br/>
-      ° Desenvolvi componentes reutilizáveis e otimizados para o front-end.<br/>
-      ° Contribuí para melhorar a qualidade do código através de otimizações e refatorações.<br/>
-      ° Tecnologias: HTML5, Sass, JavaScript, ReactJs, Gulp.js, Webpack, VTEX CMS/IO`,
+      description: `° Atuei em e-commerce de alto tráfego em VTEX IO, priorizando usabilidade, consistência visual e otimização de conversão.<br/>
+      ° Evoluí biblioteca de componentes reutilizáveis e padrões de implementação no front-end.<br/>
+      ° Elevei a manutenibilidade do código com refatorações, performance e revisões técnicas contínuas.<br/>
+      ° Tecnologias: HTML5, Sass, JavaScript, React, Gulp.js, Webpack, VTEX CMS / IO`,
+    },
+    {
+      company: "Freelance",
+      link: "https://jadsonsantos.dev.br/",
+      badges: ["Remoto"],
+      title: "Desenvolvedor Front-End",
+      logo: Minimal,
+      start: "08/2023",
+      end: "03/2024",
+      description: `° Desenvolvimento front-end em projeto fechado para cliente, com entregas iterativas e alinhamento direto de escopo.<br/>
+      ° Implementação de interfaces responsivas, ajustes de UX e integrações conforme demanda do projeto.<br/>
+      ° Tecnologias: HTML5, Sass, JavaScript, React`,
     },
     {
       company: "Red Ventures Brasil",
@@ -83,10 +92,10 @@ export const RESUME_DATA = {
       start: "10/2021",
       end: "07/2023",
       description: `
-        ° Otimizei o desempenho das páginas, reduzindo significativamente o tempo de carregamento e aumentando a pontuação no PageSpeed.<br/>
-        ° Contribuí para melhorar a qualidade do código através de revisões via pull resquests.<br/>
-        ° Colaborei em times ágeis, utilizando metodologias ágeis como SCRUM.<br/>
-        ° Tecnologias: HTML5, Sass, JavaScript, ReactJs, GatsbyJs
+        ° Melhorei métricas de performance (tempo de carregamento e pontuações no PageSpeed Insights) em páginas de alto consumo.<br/>
+        ° Fortaleci a qualidade do código com revisões consistentes em pull requests e feedback entre pares.<br/>
+        ° Trabalhei em squad ágil com Scrum para discovery e entregas iterativas.<br/>
+        ° Tecnologias: HTML5, Sass, JavaScript, React, Gatsby.js
         `,
     },
     {
@@ -97,21 +106,9 @@ export const RESUME_DATA = {
       logo: ClevertechLogo,
       start: "05/2019",
       end: "10/2021",
-      description: `° Desenvolvi e mantive sites de e-commerce utilizando VTEX CMS, garantindo experiências de usuário otimizadas e responsivas.<br/>
-      ° Implementei e mantive tags de rastreamento avançadas através do Google Tag Manager (GTM), incluindo Google Analytics, Google Ads e Facebook Pixel. Isso permitiu análises precisas e estratégias de marketing eficazes para os clientes.
-      <br/>
-      ° Tecnologias: HTML5, Pugjs, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
-    },
-    {
-      company: "Nasajon",
-      link: "https://nasajon.com.br/",
-      badges: ["Rio de Janeiro"],
-      title: "Desenvolvedor Front-End",
-      logo: JojoMobileLogo,
-      start: "07/2017",
-      end: "10/2018",
-      description: `Meu papel principal foi desenvolver e manter temas em WordPress, criando novas funcionalidades para melhorar a experiência do usuário.<br/> Utilizei tecnologias como HTML5, CSS3 e jQuery para construir soluções dinâmicas e interativas, resultando em plataformas eficientes para nossos clientes.<br/>
-      `,
+      description: `° Desenvolvimento e sustentação de lojas em VTEX CMS com foco em experiência responsiva, performance e consistência de marca.<br/>
+      ° Configurei e mantive camadas de medição no Google Tag Manager (Google Analytics, Google Ads, Facebook Pixel) para orientar squads de growth e produto.<br/>
+      ° Tecnologias: HTML5, Pug.js, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -125,22 +122,25 @@ export const RESUME_DATA = {
     // },
   ],
   skills: [
+    "VTEX (CMS / IO)",
     "React",
     "Next.js",
-    "GatsbyJs",
+    "Gatsby.js",
     "TypeScript",
+    "JavaScript",
     "Redux",
     "Sass",
     "Styled Components",
-    "TailwindCSS",
-    "VTEX",
-    "Clean Code",
-    "Cypress",
+    "Tailwind CSS",
+    "Webpack",
+    "Gulp",
+    "Google Tag Manager",
+    "jQuery",
     "BEM",
-    "Scrum",
-    "Kanban",
-    "Code Review",
-    "Metodologias Ágeis",
+    "Cypress",
+    "Clean code",
+    "Code review",
+    "Metodologias ágeis (Scrum, Kanban)",
   ],
   projects: [
     {
