@@ -1,23 +1,11 @@
+import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
   ClevertechLogo,
   ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
   JojoMobileLogo,
   Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Jadson Santos",
@@ -26,7 +14,7 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
   about: "Desenvolvedor Front-End",
   summary: `
-    Com 5 anos de experiência em desenvolvimento web, trabalhei com importantes marcas e instituições financeiras, onde desenvolvi e mantive projetos e-commerce e aplicações web para aquisição de produtos digitais. Atualmente, estou focado em desenvolvimento digital de produtos focados em usabilidade e otimização de conversão.`,
+    Desenvolvedor Front-End com 5 anos de experiência em projetos web e e-commerce para empresas de grande porte. Tenho histórico de entrega de interfaces responsivas e acessíveis, com foco em usabilidade, performance e otimização de conversão. Trabalho em equipes multidisciplinares, aplicando boas práticas de código e metodologias ágeis para construir soluções digitais escaláveis e de alta qualidade.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -60,13 +48,27 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Lumis XP",
+      link: "https://www.lumis.com.br/",
+      badges: ["Remoto"],
+      title: "Desenvolvedor Front-End",
+      logo: Minimal,
+      start: "01/2026",
+      end: "atualmente",
+      description: `° Integração com APIs REST e manipulação de dados no client-side.<br/>
+        ° Utilização da plataforma LumisXP para construção de soluções integradas e de alta performance.<br/>
+        ° Desenvolvimento, adaptação e manutenção de templates e componentes front-end para páginas e seções do portal.<br/>
+        ° Participação em reuniões com stakeholders para alinhamento, priorização e validação de entregas.<br/>
+        ° Tecnologias: HTML5, CSS3, JavaScript, jQuery, LumisXP CMS`,
+    },
+    {
       company: "Avanti",
       link: "https://penseavanti.com.br/ecommerce/",
       badges: ["Remoto"],
       title: "Desenvolvedor Front-End",
       logo: ClevertechLogo,
       start: "04/2024",
-      end: "atualmente",
+      end: "01/2026",
       description: `° Desenvolvi e mantive sites de e-commerce de alto tráfego, focando em usabildade e otimização de conversão.<br/>
       ° Desenvolvi componentes reutilizáveis e otimizados para o front-end.<br/>
       ° Contribuí para melhorar a qualidade do código através de otimizações e refatorações.<br/>
@@ -132,6 +134,12 @@ export const RESUME_DATA = {
     "Styled Components",
     "TailwindCSS",
     "VTEX",
+    "Clean Code",
+    "Cypress",
+    "BEM",
+    "Scrum",
+    "Kanban",
+    "Code Review",
     "Metodologias Ágeis",
   ],
   projects: [
