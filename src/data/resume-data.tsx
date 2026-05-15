@@ -11,8 +11,8 @@ export const RESUME_DATA = {
   initials: "JS",
   location: "Rio de Janeiro, RJ",
   locationLink: "https://www.google.com/maps/place/Rio+de+Janeiro,+RJ",
-  about: "Desenvolvedor Front-End · Produtos digitais & e-commerce",
-  summary: `Desenvolvedor Front-End com trajetória em produtos digitais e e-commerce de grande porte. Mais de 6 anos entregando interfaces responsivas e acessíveis, com foco em performance web, usabilidade e conversão, em contextos que vão de portais corporativos a lojas de alto tráfego. Colaboro em times multidisciplinares com code review, boas práticas e rituais ágeis. Busco atuar em equipes front-end com stack atual, autonomia técnica e impacto claro em produto e experiência do usuário.`,
+  about: "Desenvolvedor Front-End React · Produtos Digitais & E-commerce",
+  summary: `Desenvolvedor Front-End com 6 anos de experiência em aplicações web, produtos digitais e e-commerce de alto tráfego. Atuação focada em React, performance, componentização, usabilidade e construção de interfaces escaláveis. Experiência colaborando com times multidisciplinares, code review, integração com APIs REST e entregas contínuas em ambientes ágeis.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/8013223?v=4",
   personalWebsiteUrl: "https://jadsonsantos.dev.br/",
   contact: {
@@ -53,10 +53,9 @@ export const RESUME_DATA = {
       logo: Minimal,
       start: "01/2026",
       end: "atualmente",
-      description: `° Desenvolvimento e manutenção de templates e componentes de interface para portal corporativo na plataforma LumisXP.<br/>
+      description: `° Desenvolvimento e manutenção de componentes e interfaces para portal corporativo na plataforma LumisXP, com foco em estabilidade, usabilidade e evolução contínua do front-end.<br/>
         ° Integração com APIs REST e consumo de dados no front-end para páginas e seções do portal.<br/>
-        ° Participação em rituais com stakeholders para priorização, alinhamento e validação de entregas.<br/>
-        ° Tecnologias: HTML5, CSS3, JavaScript, jQuery, LumisXP CMS`,
+        ° Tecnologias: JavaScript, jQuery, HTML5, CSS3, APIs REST, LumisXP CMS, Scrum`,
     },
     {
       company: "Avanti",
@@ -69,7 +68,7 @@ export const RESUME_DATA = {
       description: `° Atuei em e-commerce de alto tráfego em VTEX IO, priorizando usabilidade, consistência visual e otimização de conversão.<br/>
       ° Evoluí biblioteca de componentes reutilizáveis e padrões de implementação no front-end.<br/>
       ° Elevei a manutenibilidade do código com refatorações, performance e revisões técnicas contínuas.<br/>
-      ° Tecnologias: HTML5, Sass, JavaScript, React, Gulp.js, Webpack, VTEX CMS / IO`,
+      ° Tecnologias: React, TypeScript, JavaScript, Sass, Tailwind CSS, VTEX IO, Code Review`,
     },
     {
       company: "Freelance",
@@ -81,7 +80,7 @@ export const RESUME_DATA = {
       end: "03/2024",
       description: `° Desenvolvimento front-end em projeto fechado para cliente, com entregas iterativas e alinhamento direto de escopo.<br/>
       ° Implementação de interfaces responsivas, ajustes de UX e integrações conforme demanda do projeto.<br/>
-      ° Tecnologias: HTML5, Sass, JavaScript, React`,
+      ° Tecnologias: React, TypeScript, Next.js, JavaScript, Sass, Styled Components`,
     },
     {
       company: "Red Ventures Brasil",
@@ -95,7 +94,7 @@ export const RESUME_DATA = {
         ° Melhorei métricas de performance (tempo de carregamento e pontuações no PageSpeed Insights) em páginas de alto consumo.<br/>
         ° Fortaleci a qualidade do código com revisões consistentes em pull requests e feedback entre pares.<br/>
         ° Trabalhei em squad ágil com Scrum para discovery e entregas iterativas.<br/>
-        ° Tecnologias: HTML5, Sass, JavaScript, React, Gatsby.js
+        ° Tecnologias: React, Gatsby.js, JavaScript, Cypress, Code Review, Scrum
         `,
     },
     {
@@ -108,7 +107,7 @@ export const RESUME_DATA = {
       end: "10/2021",
       description: `° Desenvolvimento e sustentação de lojas em VTEX CMS com foco em experiência responsiva, performance e consistência de marca.<br/>
       ° Configurei e mantive camadas de medição no Google Tag Manager (Google Analytics, Google Ads, Facebook Pixel) para orientar squads de growth e produto.<br/>
-      ° Tecnologias: HTML5, Pug.js, Sass, JavaScript, jQuery, Gulp.js, Grunt, VTEX CMS`,
+      ° Tecnologias: JavaScript, Sass, VTEX CMS, HTML5, Pug.js, jQuery`,
     },
     // {
     //   company: "Nokia Siemens Networks",
@@ -122,24 +121,24 @@ export const RESUME_DATA = {
     // },
   ],
   skills: [
-    "VTEX (CMS / IO)",
     "React",
     "Next.js",
     "Gatsby.js",
     "TypeScript",
     "JavaScript",
+    "Consumo de APIs REST",
     "Redux",
     "Sass",
     "Styled Components",
     "Tailwind CSS",
     "Webpack",
-    "Gulp",
+    "Git",
+    "GitHub",
     "Google Tag Manager",
-    "jQuery",
-    "BEM",
+    "VTEX IO",
     "Cypress",
-    "Clean code",
-    "Code review",
+    "Clean Code",
+    "Code Review",
     "Metodologias ágeis (Scrum, Kanban)",
   ],
   projects: [
@@ -164,7 +163,7 @@ export const RESUME_DATA = {
         "SwiperJS",
       ],
       description:
-        "Site da agência de expedição Harpá, desenvolvido em Next.js. Implementado com componentes reutilizáveis e estilizados usando Styled Components. Incorpora funcionalidades avançadas como galerias dinâmicas com SwiperJS. Conta com uma estrutura modular, separando claramente as responsabilidades, facilitando a manutenção e escalabilidade do site.",
+        "Site da agência de expedição Harpá, desenvolvido em Next.js. Implementado com componentes reutilizáveis e estilizados usando Styled Components. Incorpora funcionalidades como galerias dinâmicas com SwiperJS. Conta com uma estrutura modular, separando claramente as responsabilidades, facilitando a manutenção e escalabilidade do site.",
       logo: ConsultlyLogo,
       link: {
         label: "harpa.me",
@@ -182,7 +181,7 @@ export const RESUME_DATA = {
         "EmailJS",
       ],
       description:
-        "Este portfólio é uma plataforma robusta desenvolvida em Next.js e React, exibindo habilidades em design e experiência do usuário. Implementado com JavaScript e estilizado usando Sass e SCSS Modules, oferece uma interface visual atraente e responsiva. A plataforma incorpora funcionalidades avançadas como envio de formulários via EmailJS, permitindo interação direta com o usuário.",
+        "Portfólio desenvolvido em Next.js e React, exibindo habilidades em design e experiência do usuário. Implementado com JavaScript e estilizado usando Sass e SCSS Modules, oferece uma interface visual atraente e responsiva. Incorpora funcionalidades como envio de formulários via EmailJS, permitindo interação direta com o usuário.",
       logo: ConsultlyLogo,
       link: {
         label: "thalitatorres.com.br",
