@@ -126,7 +126,7 @@ export const RESUME_DATA = {
     "Gatsby.js",
     "TypeScript",
     "JavaScript",
-    "Consumo de APIs REST",
+    "APIs REST",
     "Redux",
     "Sass",
     "Styled Components",
